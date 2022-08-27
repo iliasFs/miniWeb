@@ -73,8 +73,6 @@ li {
 
   /* We add Div Row wich wraps the entire header, we modify it so the contents of header wont stretch to the hole width of the page*/
   /* now the parent is row. thats why we moved flex here*/
-
-
 }
 
 /*
@@ -156,8 +154,7 @@ form {
   display: flex;
   flex-direction: column;
   margin: 0 auto;
-  padding:0 24px;
-  
+  padding: 0 24px;
 }
 
 input,
@@ -198,8 +195,6 @@ footer {
   padding: 0 16px;
 }
 
-
-
 /*
 
 SMALL PHONES // TABLETS  // LARGE SMARTPHONES
@@ -207,72 +202,59 @@ SMALL PHONES // TABLETS  // LARGE SMARTPHONES
 what this does is that if the screen comes below 728 px activate this css
 
 */
-@media (max-width: 728px){     
-
-.row {
+@media (max-width: 728px) {
+  .row {
     display: flex;
     flex-direction: column;
-}
+  }
 
-
-.home__description{
-
+  .home__description {
     margin-bottom: 24px;
-    display:flex;
+    display: flex;
     flex-direction: column;
     align-items: center;
+  }
 
-}
-
-h1{
-
+  h1 {
     text-align: center;
     font-size: 60px;
+  }
 
-
-}
-
-.subheader{
-
+  .subheader {
     text-align: center;
     margin: 16px 0;
+  }
 
-
-}
-
-.home__description--button{
-
+  .home__description--button {
     max-width: 240px;
-}
+  }
 
-ul{
+  ul {
     display: none;
-}
+  }
 
-.section_description{
-
-    display:flex;
+  .section_description {
+    display: flex;
     flex-direction: column;
+  }
 
-}
-
-.about__image--wrapper{
+  .about__image--wrapper {
     max-width: 80%;
     width: 100%;
-}
+  }
 
-#discord .section_description {
-
-    display:flex;
+  #discord .section_description {
+    display: flex;
     flex-direction: column-reverse;
-
-
-}
-.section__description--wrapper{
-    width:80%;
+  }
+  .section__description--wrapper {
+    width: 80%;
     text-align: center;
+  }
+
+  .footer__links a{
+display: block;
+padding-bottom: 8px;
+  }
+  }
 }
-
-}
-
-
