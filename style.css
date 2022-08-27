@@ -156,6 +156,8 @@ form {
   display: flex;
   flex-direction: column;
   margin: 0 auto;
+  padding:0 24px;
+  
 }
 
 input,
@@ -257,6 +259,18 @@ ul{
 .about__image--wrapper{
     max-width: 80%;
     width: 100%;
+}
+
+#discord .section_description {
+
+    display:flex;
+    flex-direction: column-reverse;
+
+
+}
+.section__description--wrapper{
+    width:80%;
+    text-align: center;
 }
 
 }
